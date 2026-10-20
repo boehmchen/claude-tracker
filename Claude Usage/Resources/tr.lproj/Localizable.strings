@@ -12,7 +12,6 @@
 "app.name" = "Claude Kullanım Takibi";
 "app.window.main" = "Claude Kullanım";
 "app.window.settings" = "Ayarlar";
-"app.window.github_prompt" = "Claude Kullanım Takibi'ni Destekle";
 
 /* ==================== */
 /* MARK: - Common Actions */
@@ -48,8 +47,6 @@
 "settings.notifications.description" = "Kullanım uyarıları ve bildirimler";
 "settings.claude_cli" = "Claude CLI";
 "settings.claude_cli.description" = "Terminal durum satırı entegrasyonu";
-"settings.updates" = "Güncellemeler";
-"settings.updates.description" = "Uygulamanızı güncel tutun";
 "settings.about" = "Hakkında";
 "settings.about.description" = "Uygulama bilgileri ve katkıda bulunanlar";
 
@@ -165,30 +162,8 @@
 /* MARK: - About */
 /* ==================== */
 "about.version" = "Sürüm %@";
-"about.check_updates" = "Güncellemeleri Kontrol Et";
-"about.created_by" = "Geliştiren";
-"about.contributors" = "Katkıda Bulunanlar (%d)";
-"about.contributors_loading" = "Katkıda Bulunanlar";
-"about.contributors_failed" = "Katkıda bulunanlar yüklenemedi";
 "about.links" = "Bağlantılar";
-"about.star_github" = "GitHub'da Yıldızla";
-"about.report_issue" = "Sorun Bildir";
-"about.send_feedback" = "Geri Bildirim Gönder";
 "about.mit_license" = "MIT Lisansı • Açık Kaynak";
-"about.copyright" = "© 2025 Hamed Elfayome";
-
-/* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"settings.updates.title" = "Yazılım Güncellemeleri";
-"settings.updates.current_version" = "Mevcut Sürüm";
-"settings.updates.last_check" = "Son Kontrol";
-"settings.updates.never_checked" = "Hiç";
-"settings.updates.automatic" = "Otomatik Güncellemeler";
-"settings.updates.automatic.description" = "Güncellemeleri günlük olarak otomatik kontrol et ve indir";
-"settings.updates.check_now" = "Güncellemeleri Kontrol Et";
-"settings.updates.info.title" = "Güvenli Güncellemeler";
-"settings.updates.info.description" = "Tüm güncellemeler kurulumdan önce kriptografik olarak imzalanır ve doğrulanır";
 
 /* ==================== */
 /* MARK: - Icon Styles */
@@ -283,15 +258,6 @@
 "validation.invalid_characters" = "Oturum anahtarında geçersiz karakterler var";
 "validation.invalid_format" = "Geçersiz oturum anahtarı biçimi";
 "validation.contains_whitespace" = "Oturum anahtarı boşluk içeriyor";
-
-/* ==================== */
-/* MARK: - GitHub Star Prompt */
-/* ==================== */
-"github.enjoy_app" = "Claude Kullanım Takibi'ni beğendiniz mi?";
-"github.star_description" = "Bu uygulama işinize yaradıysa, lütfen GitHub'da yıldızlamayı düşünün! Başkalarının projeyi keşfetmesine yardımcı olur ve geliştirmeye devam etmemize motivasyon sağlar.";
-"github.star_button" = "GitHub'da Yıldızla";
-"github.maybe_later" = "Belki Sonra";
-"github.never_show" = "Bir Daha Gösterme";
 
 /* ==================== */
 /* MARK: - API Settings */
@@ -561,13 +527,6 @@
 "general.not_connected" = "Bağlı Değil";
 
 /* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"updates.version_info" = "Sürüm Bilgisi";
-"updates.update_preferences" = "Güncelleme Tercihleri";
-"updates.version_label" = "v%@ (%@)";
-
-/* ==================== */
 /* MARK: - Appearance (Additional) */
 /* ==================== */
 "appearance.global_subtitle" = "Menü çubuğu simge davranışını özelleştir";
@@ -674,12 +633,6 @@
 "section.manage_profiles_desc" = "Profilleri yönet";
 
 /* ==================== */
-/* MARK: - Creator Info */
-/* ==================== */
-"creator.name" = "Hamed Elfayome";
-"creator.username" = "@hamed-elfayome";
-
-/* ==================== */
 /* MARK: - Wizard Steps & Actions */
 /* ==================== */
 "wizard.enter_key" = "Anahtar Girin";
@@ -772,8 +725,6 @@
 /* ==================== */
 "section.history_title" = "Geçmiş";
 "section.history_desc" = "Kullanım geçmişini görüntüle";
-"section.support_title" = "Destek";
-"section.support_desc" = "Proje geliştirmesini destekle";
 "section.debug_title" = "Hata Ayıklama Araçları";
 "section.debug_desc" = "Ağ günlüğü ve tanılama";
 "history.title" = "Kullanım Geçmişi";
@@ -815,23 +766,6 @@
 "history.export.title" = "Veriyi Dışa Aktar";
 "history.export.json" = "JSON olarak dışa aktar";
 "history.export.csv" = "CSV olarak dışa aktar";
-
-/* ==================== */
-/* MARK: - Support View */
-/* ==================== */
-"support.title" = "Projeyi Destekle";
-"support.subtitle" = "Claude Kullanım Takibi ücretsiz ve açık kaynaklıdır";
-"support.all_features_free" = "Tüm Özellikler Ücretsiz";
-"support.all_features_desc" = "Bu uygulamadaki her özellik tamamen ücretsizdir. Premium katman yok, ücret duvarı yok, abonelik yok.";
-"support.open_source" = "Açık Kaynak";
-"support.open_source_desc" = "Kaynak kodu GitHub'da herkese açıktır. Projeyi inceleyebilir, değiştirebilir ve katkıda bulunabilirsiniz.";
-"support.no_tracking" = "Takip Yok";
-"support.no_tracking_desc" = "Gizliliğiniz önemli. Analitik yok, telemetri yok, veri toplama yok. Her şey Mac'inizde kalır.";
-"support.message" = "Bu uygulamayı faydalı buluyorsanız, geliştirmesini desteklemeyi düşünün";
-"support.buy_coffee" = "Bir Kahve Ismarla";
-"support.footer" = "Desteğiniz bu projenin yaşamasına ve büyümesine yardımcı olur";
-"support.also_support" = "Şu şekilde de destek olabilirsiniz:";
-"support.star_github" = "GitHub'da yıldızlayarak";
 
 /* ==================== */
 /* MARK: - Debug View */
@@ -893,23 +827,6 @@
 "shortcuts.info_desc" = "Kısayollar herhangi bir uygulamadan çalışır. Her kısayol en az bir değiştirici tuş (Command, Option, Control veya Shift) içermelidir. Sistem kısayollarıyla çakışmaktan kaçının.";
 
 /* ==================== */
-/* MARK: - Mobile App (Coming Soon) */
-/* ==================== */
-"section.mobile_app_title" = "Mobil Uygulama";
-"section.mobile_app_desc" = "Mobil uygulama yakında";
-"mobile.title" = "Mobil Uygulama";
-"mobile.subtitle" = "Claude kullanımınızı hareket halindeyken takip edin";
-"mobile.coming_soon_badge" = "YAKINDA";
-"mobile.cta_message" = "İlgileniyor musunuz? Bize bildirin, hazır olduğunda size haber verelim.";
-"mobile.notify_me" = "Beni Haberdar Et";
-"mobile.submitting" = "Gönderiliyor...";
-"mobile.notified" = "Listedesiniz!";
-"mobile.notified_desc" = "Mobil uygulama hazır olduğunda size haber vereceğiz.";
-"mobile.privacy_note" = "Kişisel veri toplanmaz. Bu yalnızca ilginizi kaydeder.";
-"mobile.error_title" = "İstek Başarısız";
-"mobile.error_message" = "İlginiz kaydedilemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.";
-
-/* ==================== */
 /* MARK: - Popover Settings */
 /* ==================== */
 "section.popover_title" = "Açılır Pencere";
@@ -933,25 +850,6 @@
 /* ==================== */
 /* MARK: - Feedback Prompt */
 /* ==================== */
-"feedback.title" = "İyileştirmemize Yardımcı Olun";
-"feedback.subtitle" = "Geri bildiriminiz bu uygulamanın geleceğini şekillendirir";
-"feedback.name_placeholder" = "İsim";
-"feedback.title_label" = "Rol";
-"feedback.contact_placeholder" = "E-posta";
-"feedback.message_placeholder" = "Bize her şeyi söyleyin — geri bildirim, fikirler, özellik istekleri...";
-"feedback.submit" = "Gönder";
-"feedback.submitting" = "Gönderiliyor...";
-"feedback.remind_later" = "Daha Sonra Hatırlat";
-"feedback.never_show" = "Bir Daha Sorma";
-"feedback.thanks" = "Geri bildiriminiz için teşekkürler!";
-"feedback.error_title" = "Gönderim Başarısız";
-"feedback.error_message" = "Geri bildiriminiz gönderilemedi. Lütfen daha sonra tekrar deneyin.";
-"feedback.role_developer" = "Geliştirici";
-"feedback.role_designer" = "Tasarımcı";
-"feedback.role_manager" = "Yönetici";
-"feedback.role_student" = "Öğrenci";
-"feedback.role_researcher" = "Araştırmacı";
-"feedback.role_other" = "Diğer";
 
 // MARK: - Status Banners
 "popover.banner.credentials_expired" = "Kimlik bilgileri süresi doldu. Ayarlar'dan güncelleyin.";
@@ -1012,10 +910,6 @@
 "notch.server.listening" = "%@ üzerinde dinleniyor";
 "notch.server.port_busy" = "%@ bağlantı noktası kullanımda — uygulamanın başka bir kopyası mı çalışıyor?";
 "notch.server.retry" = "Yeniden dene";
-
-/* Sponsor slot */
-"sponsor.slot_title" = "Bu alan sponsorlara açıktır";
-"sponsor.slot_cta" = "İletişime geçin";
 
 /* Multi-Provider / OpenAI Codex */
 "section.codex_account_title" = "Codex Hesabı";
@@ -1080,8 +974,3 @@
 "launcher.verify" = "Oturumu Kontrol Et";
 "launcher.path_warning" = "~/.local/bin PATH içinde değil. Bu satırı kabuk profilinize ekleyin:";
 "launcher.install_failed" = "Başlatıcı yüklenemedi: %@";
-"support.popup_title" = "Merhaba, ben Hamed 👋";
-"support.popup_later" = "Belki sonra";
-"support.popup_signature" = "Claude Usage'ın arkasındaki tek kişilik ekip";
-"support.popup_body" = "Ücretsiz, açık kaynak, tek kişi tarafından yapıldı — reklam yok, izleme yok. Sizi bir oturum limitini yakmaktan kurtardıysa, bir kahve onu ayakta tutar.";
-"support.popup_days" = "%d gündür limitlerinizi izliyor — her zaman ücretsiz";

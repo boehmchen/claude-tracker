@@ -12,7 +12,6 @@
 "app.name" = "Claude Usage Tracker";
 "app.window.main" = "Utilizzo di Claude";
 "app.window.settings" = "Impostazioni";
-"app.window.github_prompt" = "Supporta Claude Usage Tracker";
 
 /* ==================== */
 /* MARK: - Common Actions */
@@ -157,15 +156,8 @@
 /* MARK: - About */
 /* ==================== */
 "about.version" = "Versione %@";
-"about.created_by" = "Creato Da";
-"about.contributors" = "Collaboratori (%d)";
-"about.contributors_loading" = "Collaboratori";
 "about.links" = "Collegamenti";
-"about.star_github" = "Stella su GitHub";
-"about.report_issue" = "Segnala Problema";
-"about.send_feedback" = "Invia Feedback";
 "about.mit_license" = "Licenza MIT • Open Source";
-"about.copyright" = "© 2025 Hamed Elfayome";
 
 /* ==================== */
 /* MARK: - Icon Styles */
@@ -260,15 +252,6 @@
 "validation.invalid_characters" = "Caratteri non validi nella chiave di sessione";
 "validation.invalid_format" = "Formato chiave di sessione non valido";
 "validation.contains_whitespace" = "La chiave di sessione contiene spazi";
-
-/* ==================== */
-/* MARK: - GitHub Star Prompt */
-/* ==================== */
-"github.enjoy_app" = "Ti piace Claude Usage Tracker?";
-"github.star_description" = "Se questa app è stata utile, considera di metterle una stella su GitHub! Aiuta gli altri a scoprire il progetto e motiva lo sviluppo continuo.";
-"github.star_button" = "Stella su GitHub";
-"github.maybe_later" = "Forse Più Tardi";
-"github.never_show" = "Non Mostrare Più";
 
 /* ==================== */
 /* MARK: - API Settings */
@@ -495,20 +478,6 @@
 "personal.success_key_saved" = "Chiave di sessione salvata con successo";
 
 /* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"settings.updates.title" = "Aggiornamenti Software";
-"settings.updates.current_version" = "Versione Attuale";
-"settings.updates.last_check" = "Ultimo Controllo";
-"settings.updates.never_checked" = "Mai";
-"settings.updates.automatic" = "Aggiornamenti Automatici";
-"settings.updates.automatic.description" = "Controlla e scarica automaticamente gli aggiornamenti ogni giorno";
-"settings.updates.check_now" = "Verifica Aggiornamenti";
-"settings.updates.info.title" = "Aggiornamenti Sicuri";
-"settings.updates.info.description" = "Tutti gli aggiornamenti sono firmati crittograficamente e verificati prima dell'installazione";
-"about.check_updates" = "Verifica Aggiornamenti";
-
-/* ==================== */
 /* MARK: - Manage Profiles */
 /* ==================== */
 "profiles.title" = "Gestisci Profili";
@@ -579,13 +548,6 @@
 "general.notifications_subtitle" = "Ricevi notifiche sulle tappe di utilizzo";
 "general.connected" = "Connesso";
 "general.not_connected" = "Non Connesso";
-
-/* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"updates.version_info" = "Informazioni Versione";
-"updates.update_preferences" = "Preferenze Aggiornamento";
-"updates.version_label" = "v%@ (%@)";
 
 /* ==================== */
 /* MARK: - Appearance (Additional) */
@@ -691,16 +653,8 @@
 "section.manage_profiles_desc" = "Gestisci profili";
 "section.history_title" = "Cronologia";
 "section.history_desc" = "Visualizza cronologia utilizzo";
-"section.support_title" = "Supporto";
-"section.support_desc" = "Supporta lo sviluppo del progetto";
 "section.debug_title" = "Strumenti di Debug";
 "section.debug_desc" = "Registrazione di rete e diagnostica";
-
-/* ==================== */
-/* MARK: - Creator Info */
-/* ==================== */
-"creator.name" = "Hamed Elfayome";
-"creator.username" = "@hamed-elfayome";
 
 /* ==================== */
 /* MARK: - Wizard Steps & Actions */
@@ -817,19 +771,6 @@
 "history.export.json" = "Esporta come JSON";
 "history.export.csv" = "Esporta come CSV";
 "history.chart.now" = "Ora";
-"support.title" = "Supporta il Progetto";
-"support.subtitle" = "Claude Usage Tracker è gratuito e open source";
-"support.all_features_free" = "Tutte le Funzionalità Sono Gratuite";
-"support.all_features_desc" = "Ogni funzionalità in questa app è completamente gratuita. Nessun livello premium, nessun paywall, nessun abbonamento.";
-"support.open_source" = "Open Source";
-"support.open_source_desc" = "Il codice sorgente è disponibile pubblicamente su GitHub. Puoi ispezionarlo, modificarlo e contribuire al progetto.";
-"support.no_tracking" = "Nessun Tracciamento";
-"support.no_tracking_desc" = "La tua privacy conta. Nessuna analisi, nessuna telemetria, nessuna raccolta di dati. Tutto rimane sul tuo Mac.";
-"support.message" = "Se trovi questa app utile, considera di supportarne lo sviluppo";
-"support.buy_coffee" = "Offrimi un Caffè";
-"support.footer" = "Il tuo supporto aiuta a mantenere questo progetto vivo e in crescita";
-"support.also_support" = "Puoi anche supportare";
-"support.star_github" = "Mettendo una Stella su GitHub";
 "debug.title" = "Strumenti di Debug";
 "debug.subtitle" = "Registra le richieste di rete per la risoluzione dei problemi e la diagnostica";
 "debug.network_logger" = "Logger Richieste di Rete";
@@ -887,23 +828,6 @@
 "shortcuts.info_desc" = "Le scorciatoie funzionano da qualsiasi applicazione. Ogni scorciatoia deve includere almeno un tasto modificatore (Comando, Opzione, Controllo o Maiuscolo). Evita conflitti con le scorciatoie di sistema.";
 
 /* ==================== */
-/* MARK: - Mobile App (Coming Soon) */
-/* ==================== */
-"section.mobile_app_title" = "App Mobile";
-"section.mobile_app_desc" = "App mobile in arrivo";
-"mobile.title" = "App Mobile";
-"mobile.subtitle" = "Monitora il tuo utilizzo di Claude ovunque";
-"mobile.coming_soon_badge" = "IN ARRIVO";
-"mobile.cta_message" = "Interessato? Faccelo sapere e ti avviseremo quando sarà pronto.";
-"mobile.notify_me" = "Avvisami";
-"mobile.submitting" = "Invio...";
-"mobile.notified" = "Sei nella lista!";
-"mobile.notified_desc" = "Ti informeremo quando l'app mobile sarà disponibile.";
-"mobile.privacy_note" = "Nessun dato personale viene raccolto. Questo registra solo il tuo interesse.";
-"mobile.error_title" = "Richiesta fallita";
-"mobile.error_message" = "Impossibile registrare il tuo interesse. Controlla la connessione internet e riprova.";
-
-/* ==================== */
 /* MARK: - Popover Settings */
 /* ==================== */
 "section.popover_title" = "Popover";
@@ -927,25 +851,6 @@
 /* ==================== */
 /* MARK: - Feedback Prompt */
 /* ==================== */
-"feedback.title" = "Aiutaci a Migliorare";
-"feedback.subtitle" = "Il tuo feedback plasma il futuro di questa app";
-"feedback.name_placeholder" = "Nome";
-"feedback.title_label" = "Ruolo";
-"feedback.contact_placeholder" = "Email";
-"feedback.message_placeholder" = "Dicci tutto — feedback, idee, suggerimenti...";
-"feedback.submit" = "Invia";
-"feedback.submitting" = "Invio...";
-"feedback.remind_later" = "Ricordamelo Dopo";
-"feedback.never_show" = "Non Chiedere Più";
-"feedback.thanks" = "Grazie per il tuo feedback!";
-"feedback.error_title" = "Invio Fallito";
-"feedback.error_message" = "Impossibile inviare il feedback. Riprova più tardi.";
-"feedback.role_developer" = "Sviluppatore";
-"feedback.role_designer" = "Designer";
-"feedback.role_manager" = "Manager";
-"feedback.role_student" = "Studente";
-"feedback.role_researcher" = "Ricercatore";
-"feedback.role_other" = "Altro";
 
 // MARK: - Status Banners
 "popover.banner.credentials_expired" = "Credenziali scadute. Aggiorna in Impostazioni.";
@@ -1008,7 +913,6 @@
 "notch.server.retry" = "Riprova";
 
 /* Backfilled keys (localization parity) */
-"about.contributors_failed" = "Impossibile caricare i collaboratori";
 "appearance.all_metrics_off_title" = "Modalità logo";
 "appearance.all_metrics_off_description" = "Tutte le metriche sono disattivate. Nella barra dei menu verrà mostrato il logo dell'app. Fai clic per accedere a profili e impostazioni.";
 "common.retry" = "Riprova";
@@ -1018,12 +922,6 @@
 "menubar.cost_source.unknown" = "Altro";
 "menubar.this_month" = "Questo mese";
 "menubar.total" = "Totale";
-"settings.updates" = "Aggiornamenti";
-"settings.updates.description" = "Mantieni l'app aggiornata";
-
-/* Sponsor slot */
-"sponsor.slot_title" = "Questo spazio è disponibile per gli sponsor";
-"sponsor.slot_cta" = "Contattami";
 
 /* Multi-Provider / OpenAI Codex */
 "section.codex_account_title" = "Account Codex";
@@ -1088,8 +986,3 @@
 "launcher.verify" = "Verifica accesso";
 "launcher.path_warning" = "~/.local/bin non è nel tuo PATH. Aggiungi questa riga al profilo della shell:";
 "launcher.install_failed" = "Impossibile installare il launcher: %@";
-"support.popup_title" = "Ciao, sono Hamed 👋";
-"support.popup_later" = "Forse più tardi";
-"support.popup_signature" = "il team di una sola persona dietro Claude Usage";
-"support.popup_body" = "Gratuita, open source, fatta da una sola persona — senza pubblicità né tracciamento. Se ti ha mai evitato di bruciare un limite di sessione, un caffè la tiene viva.";
-"support.popup_days" = "Sorveglia i tuoi limiti da %d giorni — sempre gratis";

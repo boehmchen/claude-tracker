@@ -12,7 +12,6 @@
 "app.name" = "Rastreador de Uso de Claude";
 "app.window.main" = "Uso de Claude";
 "app.window.settings" = "Configuración";
-"app.window.github_prompt" = "Apoya Claude Usage Tracker";
 
 /* ==================== */
 /* MARK: - Common Actions */
@@ -48,8 +47,6 @@
 "settings.notifications.description" = "Alertas y notificaciones de uso";
 "settings.claude_cli" = "Claude CLI";
 "settings.claude_cli.description" = "Integración de línea de estado del terminal";
-"settings.updates" = "Actualizaciones";
-"settings.updates.description" = "Mantén tu aplicación actualizada";
 "settings.about" = "Acerca de";
 "settings.about.description" = "Información y créditos de la aplicación";
 
@@ -126,15 +123,8 @@
 /* MARK: - About */
 /* ==================== */
 "about.version" = "Versión %@";
-"about.created_by" = "Creado Por";
-"about.contributors" = "Colaboradores (%d)";
-"about.contributors_loading" = "Colaboradores";
 "about.links" = "Enlaces";
-"about.star_github" = "Dar Estrella en GitHub";
-"about.report_issue" = "Reportar Problema";
-"about.send_feedback" = "Enviar Comentarios";
 "about.mit_license" = "Licencia MIT • Código Abierto";
-"about.copyright" = "© 2025 Hamed Elfayome";
 
 /* ==================== */
 /* MARK: - Notification Messages */
@@ -265,15 +255,6 @@
 "validation.invalid_characters" = "Caracteres inválidos en clave de sesión";
 "validation.invalid_format" = "Formato de clave de sesión inválido";
 "validation.contains_whitespace" = "La clave de sesión contiene espacios en blanco";
-
-/* ==================== */
-/* MARK: - GitHub Star Prompt */
-/* ==================== */
-"github.enjoy_app" = "¿Disfrutando Claude Usage Tracker?";
-"github.star_description" = "Si esta aplicación te ha sido útil, ¡considera darle una estrella en GitHub! Ayuda a otros a descubrir el proyecto y motiva el desarrollo continuo.";
-"github.star_button" = "Dar Estrella en GitHub";
-"github.maybe_later" = "Quizás Más Tarde";
-"github.never_show" = "No Mostrar de Nuevo";
 
 /* ==================== */
 /* MARK: - API Settings */
@@ -478,20 +459,6 @@
 "personal.success_key_saved" = "Clave de sesión guardada correctamente";
 
 /* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"settings.updates.title" = "Actualizaciones de Software";
-"settings.updates.current_version" = "Versión Actual";
-"settings.updates.last_check" = "Última Verificación";
-"settings.updates.never_checked" = "Nunca";
-"settings.updates.automatic" = "Actualizaciones Automáticas";
-"settings.updates.automatic.description" = "Buscar y descargar actualizaciones automáticamente cada día";
-"settings.updates.check_now" = "Buscar Actualizaciones";
-"settings.updates.info.title" = "Actualizaciones Seguras";
-"settings.updates.info.description" = "Todas las actualizaciones están firmadas criptográficamente y verificadas antes de la instalación";
-"about.check_updates" = "Buscar Actualizaciones";
-
-/* ==================== */
 /* MARK: - Manage Profiles */
 /* ==================== */
 "profiles.title" = "Gestionar Perfiles";
@@ -562,13 +529,6 @@
 "general.notifications_subtitle" = "Recibir notificaciones sobre hitos de uso";
 "general.connected" = "Conectado";
 "general.not_connected" = "No Conectado";
-
-/* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"updates.version_info" = "Información de Versión";
-"updates.update_preferences" = "Preferencias de Actualización";
-"updates.version_label" = "v%@ (%@)";
 
 /* ==================== */
 /* MARK: - Appearance (Additional) */
@@ -674,16 +634,8 @@
 "section.manage_profiles_desc" = "Gestionar perfiles";
 "section.history_title" = "Historial";
 "section.history_desc" = "Ver historial de uso";
-"section.support_title" = "Soporte";
-"section.support_desc" = "Apoyar el desarrollo del proyecto";
 "section.debug_title" = "Herramientas de Depuración";
 "section.debug_desc" = "Registro de red y diagnósticos";
-
-/* ==================== */
-/* MARK: - Creator Info */
-/* ==================== */
-"creator.name" = "Hamed Elfayome";
-"creator.username" = "@hamed-elfayome";
 
 /* ==================== */
 /* MARK: - Wizard Steps & Actions */
@@ -800,19 +752,6 @@
 "history.export.json" = "Exportar como JSON";
 "history.export.csv" = "Exportar como CSV";
 "history.chart.now" = "Ahora";
-"support.title" = "Apoyar el Proyecto";
-"support.subtitle" = "Claude Usage Tracker es gratuito y de código abierto";
-"support.all_features_free" = "Todas las Funciones Son Gratuitas";
-"support.all_features_desc" = "Cada función en esta aplicación es completamente gratuita. Sin niveles premium, sin muros de pago, sin suscripciones.";
-"support.open_source" = "Código Abierto";
-"support.open_source_desc" = "El código fuente está disponible públicamente en GitHub. Puedes inspeccionar, modificar y contribuir al proyecto.";
-"support.no_tracking" = "Sin Seguimiento";
-"support.no_tracking_desc" = "Tu privacidad importa. Sin análisis, sin telemetría, sin recopilación de datos. Todo permanece en tu Mac.";
-"support.message" = "Si encuentras útil esta aplicación, considera apoyar su desarrollo";
-"support.buy_coffee" = "Cómprame un Café";
-"support.footer" = "Tu apoyo ayuda a mantener este proyecto vivo y en crecimiento";
-"support.also_support" = "También puedes apoyar";
-"support.star_github" = "Dando estrella en GitHub";
 "debug.title" = "Herramientas de Depuración";
 "debug.subtitle" = "Registrar solicitudes de red para solucionar problemas y diagnósticos";
 "debug.network_logger" = "Registrador de Solicitudes de Red";
@@ -870,23 +809,6 @@
 "shortcuts.info_desc" = "Los atajos funcionan desde cualquier aplicación. Cada atajo debe incluir al menos una tecla modificadora (Comando, Opción, Control o Mayúsculas). Evita conflictos con atajos del sistema.";
 
 /* ==================== */
-/* MARK: - Mobile App (Coming Soon) */
-/* ==================== */
-"section.mobile_app_title" = "App Móvil";
-"section.mobile_app_desc" = "App móvil próximamente";
-"mobile.title" = "App Móvil";
-"mobile.subtitle" = "Controla tu uso de Claude donde estés";
-"mobile.coming_soon_badge" = "PRÓXIMAMENTE";
-"mobile.cta_message" = "¿Te interesa? Haznos saber y te notificaremos cuando esté listo.";
-"mobile.notify_me" = "Notifícame";
-"mobile.submitting" = "Enviando...";
-"mobile.notified" = "¡Estás en la lista!";
-"mobile.notified_desc" = "Te avisaremos cuando la app móvil esté disponible.";
-"mobile.privacy_note" = "No se recopilan datos personales. Solo registra tu interés.";
-"mobile.error_title" = "Solicitud fallida";
-"mobile.error_message" = "No se pudo registrar tu interés. Verifica tu conexión a internet e intenta de nuevo.";
-
-/* ==================== */
 /* MARK: - Popover Settings */
 /* ==================== */
 "section.popover_title" = "Popover";
@@ -910,25 +832,6 @@
 /* ==================== */
 /* MARK: - Feedback Prompt */
 /* ==================== */
-"feedback.title" = "Ayúdanos a Mejorar";
-"feedback.subtitle" = "Tu opinión da forma al futuro de esta app";
-"feedback.name_placeholder" = "Nombre";
-"feedback.title_label" = "Rol";
-"feedback.contact_placeholder" = "Email";
-"feedback.message_placeholder" = "Cuéntanos lo que sea — opiniones, ideas, sugerencias...";
-"feedback.submit" = "Enviar";
-"feedback.submitting" = "Enviando...";
-"feedback.remind_later" = "Recordar Después";
-"feedback.never_show" = "No Preguntar de Nuevo";
-"feedback.thanks" = "¡Gracias por tu opinión!";
-"feedback.error_title" = "Error al Enviar";
-"feedback.error_message" = "No se pudo enviar tu opinión. Inténtalo más tarde.";
-"feedback.role_developer" = "Desarrollador";
-"feedback.role_designer" = "Diseñador";
-"feedback.role_manager" = "Gerente";
-"feedback.role_student" = "Estudiante";
-"feedback.role_researcher" = "Investigador";
-"feedback.role_other" = "Otro";
 
 // MARK: - Status Banners
 "popover.banner.credentials_expired" = "Credenciales expiradas. Actualizar en Ajustes.";
@@ -991,7 +894,6 @@
 "notch.server.retry" = "Reintentar";
 
 /* Backfilled keys (localization parity) */
-"about.contributors_failed" = "No se pudieron cargar los colaboradores";
 "appearance.all_metrics_off_title" = "Modo de logotipo";
 "appearance.all_metrics_off_description" = "Todas las métricas están desactivadas. Se mostrará el logotipo de la app en la barra de menús. Haz clic para acceder a perfiles y ajustes.";
 "common.retry" = "Reintentar";
@@ -1001,10 +903,6 @@
 "menubar.cost_source.unknown" = "Otro";
 "menubar.this_month" = "Este mes";
 "menubar.total" = "Total";
-
-/* Sponsor slot */
-"sponsor.slot_title" = "Este espacio está disponible para patrocinadores";
-"sponsor.slot_cta" = "Contáctame";
 
 /* Multi-Provider / OpenAI Codex */
 "section.codex_account_title" = "Cuenta de Codex";
@@ -1069,8 +967,3 @@
 "launcher.verify" = "Comprobar sesión";
 "launcher.path_warning" = "~/.local/bin no está en tu PATH. Añade esta línea a tu perfil de shell:";
 "launcher.install_failed" = "No se pudo instalar el lanzador: %@";
-"support.popup_title" = "Hola, soy Hamed 👋";
-"support.popup_later" = "Quizás más tarde";
-"support.popup_signature" = "el equipo unipersonal detrás de Claude Usage";
-"support.popup_body" = "Esta app es gratuita y de código abierto: sin anuncios, sin rastreo, sin muros de pago. Cada actualización se construye en mis tardes y fines de semana. Si Claude Usage te ha salvado alguna vez de quemar un límite de sesión, un café es lo que la mantiene viva y mejorando.";
-"support.popup_days" = "Vigilando tus límites desde hace %d días — siempre gratis";

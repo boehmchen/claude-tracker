@@ -1,28 +1,4 @@
-<div align="center">
-  <a href="mailto:hamedelfayome@gmail.com?subject=Claude%20Usage%20Tracker%20%E2%80%94%20Sponsorship"><img src="https://claudetracker.com/asset/sponsor.svg" alt="Sponsor slot available — get in touch: hamedelfayome@gmail.com" height="44"></a>
-</div>
-
-<br>
-
-<div align="center">
-  <a href="https://claudetracker.com/#fleet"><img src="https://claudetracker.com/map.svg" alt="Claude Usage Tracker — a native macOS menu bar app for real-time monitoring of Claude AI usage limits. Live worldwide distribution map." width="100%"></a>
-
-  <a href="https://claudetracker.com"><img src="https://claudetracker.com/asset/languages.svg?list=English%2CEspa%C3%B1ol%2CFran%C3%A7ais%2CDeutsch%2CItaliano%2CPortugu%C3%AAs%2CPortugu%C3%AAs%20(BR)%2C%E6%97%A5%E6%9C%AC%E8%AA%9E%2C%ED%95%9C%EA%B5%AD%EC%96%B4%2C%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%2C%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87%2CT%C3%BCrk%C3%A7e%2C%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%2CTi%E1%BA%BFng%20Vi%E1%BB%87t" alt="Localized in 14 languages" width="100%"></a>
-
-  <br>
-
-  <a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/releases/latest/download/Claude-Usage.zip"><img src="https://claudetracker.com/asset/download.svg" alt="Download for macOS — latest release, ~6 MB, signed &amp; notarized" height="78"></a>
-
-  <br>
-
-  <a href="https://www.buymeacoffee.com/hamedelfayome"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="54"></a>
-
-  <img src="https://claudetracker.com/asset/specs.svg?items=macOS%2014.0%2B%20(Sonoma)%2C~6%20MB%2CNative%20Swift%20%2F%20SwiftUI%2COfficially%20Signed" alt="macOS 14.0+ (Sonoma) · ~6 MB · Native Swift/SwiftUI · Officially Signed" height="40" align="middle"> 
-  <a href="https://claudetracker.com"><img src="https://claudetracker.com/asset/website.svg" alt="claudetracker.com — live stats &amp; install" height="30" hspace="4" align="middle"></a>
-
-</div>
-
----
+# Claude Usage Tracker
 
 ## Overview
 
@@ -102,68 +78,12 @@ Before installing Claude Usage Tracker, ensure you have:
 
 ### Installation
 
-#### Option 1: Homebrew (Recommended)
-
-```bash
-brew install --cask hamed-elfayome/claude-usage/claude-usage-tracker
-```
-
-Or tap first, then install:
-
-```bash
-brew tap hamed-elfayome/claude-usage
-brew install --cask claude-usage-tracker
-```
-
-**Note**: Starting with v2.0.0, the app is officially signed with an Apple Developer certificate. No security workarounds needed!
-
-**To update**:
-```bash
-brew upgrade --cask claude-usage-tracker
-```
-
-Or use the built-in automatic update feature (Settings → Updates).
-
-**To uninstall**:
-```bash
-brew uninstall --cask claude-usage-tracker
-```
-
-#### Option 2: Nix
-
-Test the app:
-
-```bash
-nix-shell -p claude-usage-tracker
-```
-
-Install it using home-manager:
-
-```nix
-home.packages = with pkgs; [
-  claude-usage-tracker
-];
-```
-
-#### Option 3: Direct Download
-
-**[Download Claude-Usage.zip](https://github.com/hamed-elfayome/Claude-Usage-Tracker/releases/latest/download/Claude-Usage.zip)**
-
-1. Download the `.zip` file from the link above
-2. Extract the zip file (double-click or use Archive Utility)
-3. Drag `Claude Usage.app` to your Applications folder
-4. Double-click to launch - that's it!
-
-**v2.0.0+ Note**: The app is now officially signed with an Apple Developer certificate. You can install and run it like any other Mac application - no security warnings or workarounds needed.
-
-**Automatic Updates**: Once installed, the app will automatically check for updates and notify you when new versions are available (Settings → Updates).
-
-#### Option 4: Build from Source
+Build from source:
 
 ```bash
 # Clone the repository
-git clone https://github.com/hamed-elfayome/Claude-Usage-Tracker.git
-cd Claude-Usage-Tracker
+git clone https://github.com/boehmchen/claude-tracker.git
+cd claude-tracker
 
 # Open in Xcode
 open "Claude Usage.xcodeproj"
@@ -360,12 +280,6 @@ Plain `claude` keeps following the **active** profile, exactly as before. Removi
 
 ## Features
 
-### Installation & Updates
-- **Official Apple Code Signing**: Professionally signed application - installs like any Mac app
-- **Automatic Updates**: Built-in update system powered by Sparkle framework
-- **One-Click Installation**: No security workarounds or manual approvals needed
-- **Update Notifications**: Get notified when new versions are available
-
 ### Usage Tracking & Monitoring
 - Real-time monitoring of 5-hour session, weekly limits, and Opus-specific usage
 - API console usage tracking with monthly cost dashboard and daily cost chart
@@ -530,18 +444,10 @@ Terminal integration (app-wide):
 - **Usage Cache**: Instant CLI rendering via cached usage data
 - See [Claude Code Integration](#claude-code-integration) section for detailed setup
 
-#### Updates
-Automatic update configuration:
-- **Automatic Update Checking**: Configure how often to check for updates
-- **Update Notifications**: Get notified when new versions are available
-- **One-Click Installation**: Download and install updates with a single click
-- **Release Notes**: View what's new in each update
-
 #### About
 Application information:
 - **Version Information**: Current app version
-- **Credits**: Contributors and acknowledgments
-- **Links**: GitHub repository, issue tracker, documentation
+- **Maintenance**: Re-run the setup wizard or reset app data
 
 
 ## Claude Code Integration
@@ -757,10 +663,8 @@ The app can simultaneously monitor both web (claude.ai) and API console usage, p
 
 - **macOS Keychain**: Session keys stored securely in macOS Keychain (most secure storage available)
 - **Automatic Migration**: v2.0+ automatically migrates session keys from older storage methods to Keychain
-- **Apple Code Signed**: Officially signed with Apple Developer certificate for verified authenticity
-- **Secure Updates**: Automatic updates delivered over HTTPS with code signature verification
 - **No Cloud Sync**: All data remains local to your machine
-- **Minimal Analytics**: Anonymous heartbeat every 24 hours containing only the app version — no PII, no credentials, no usage data
+- **No Analytics**: The app never contacts any server other than the usage APIs it monitors
 - **Advanced Error Handling**: Robust error system with user-friendly recovery
 - **Session Key Validation**: Comprehensive validation of API credentials
 - **Network**: HTTPS-only communication with claude.ai and Anthropic API
@@ -803,34 +707,6 @@ Session keys may expire after a period of time. You'll receive a notification 24
 1. Go to Settings → Personal Usage (or API Console)
 2. Click "Sign in to Claude.ai" (or "Sign in to Anthropic Console") to re-authenticate via the built-in browser
 3. Or expand "Advanced: Manual Session Key" to paste a new key manually
-
-### Updates Not Working
-
-If automatic updates aren't working:
-
-1. Check Settings → Updates to ensure automatic checking is enabled
-2. Verify you're running v2.0.0 or later (earlier versions don't have auto-update)
-3. Check your internet connection
-4. Manually download the latest version from GitHub if needed
-
-## Contributors
-
-<img src="https://contrib.rocks/image?repo=hamed-elfayome/Claude-Usage-Tracker" alt="Contributors" height="30px" />
-
-This project is built for the community — everyone is welcome
-
-### Special Thanks
-
-A huge thank you to everyone who contributed code, translations, bug reports, and pull requests. Your effort makes this project possible:
-
-<a href="https://github.com/novastate"><img src="https://github.com/novastate.png" width="40" height="40" alt="novastate" title="novastate"></a>
-<a href="https://github.com/heathdutton"><img src="https://github.com/heathdutton.png" width="40" height="40" alt="heathdutton" title="heathdutton"></a>
-<a href="https://github.com/tsvikas"><img src="https://github.com/tsvikas.png" width="40" height="40" alt="tsvikas" title="tsvikas"></a>
-<a href="https://github.com/kynoptic"><img src="https://github.com/kynoptic.png" width="40" height="40" alt="kynoptic" title="kynoptic"></a>
-<a href="https://github.com/bezlant"><img src="https://github.com/bezlant.png" width="40" height="40" alt="bezlant" title="bezlant"></a>
-<a href="https://github.com/trickart"><img src="https://github.com/trickart.png" width="40" height="40" alt="trickart" title="trickart"></a>
-<a href="https://github.com/Ali-Aldahmani"><img src="https://github.com/Ali-Aldahmani.png" width="40" height="40" alt="Ali-Aldahmani" title="Ali-Aldahmani"></a>
-<a href="https://github.com/cuvitx"><img src="https://github.com/cuvitx.png" width="40" height="40" alt="cuvitx" title="cuvitx"></a>
 
 ## Contributing
 

@@ -9,8 +9,6 @@ We release security updates for the latest stable version only. Please ensure yo
 | 1.6.x   | :white_check_mark: |
 | < 1.6   | :x:                |
 
-[Download the latest version](https://github.com/hamed-elfayome/Claude-Usage-Tracker/releases/latest)
-
 ## Reporting a Vulnerability
 
 We take security seriously. If you discover a security vulnerability, please report it responsibly.
@@ -21,7 +19,7 @@ We take security seriously. If you discover a security vulnerability, please rep
 
 Instead, use GitHub's private security advisory feature:
 
-1. Go to the [Security tab](https://github.com/hamed-elfayome/Claude-Usage-Tracker/security/advisories)
+1. Go to the repository's Security tab on GitHub
 2. Click "Report a vulnerability"
 3. Provide detailed information about the vulnerability
 
@@ -91,10 +89,7 @@ We'll keep you informed throughout the process and credit you in the security ad
 
 ### Verify Downloads
 
-- Download only from official sources:
-  - [GitHub Releases](https://github.com/hamed-elfayome/Claude-Usage-Tracker/releases)
-  - [Homebrew Tap](https://github.com/ggfevans/homebrew-claude-usage-tracker)
-- Build from source if you prefer: `git clone` + Xcode build
+- Build from source: `git clone` + Xcode build
 
 ### Keep Updated
 
@@ -114,6 +109,6 @@ Thank you for helping keep Claude Usage Tracker secure!
 
 ## Questions?
 
-For non-security related issues, please use [GitHub Issues](https://github.com/hamed-elfayome/Claude-Usage-Tracker/issues).
+For non-security related issues, please open an issue on the repository.
 
 For general questions, see our [Contributing Guide](CONTRIBUTING.md).

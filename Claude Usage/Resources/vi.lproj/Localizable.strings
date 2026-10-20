@@ -12,7 +12,6 @@
 "app.name" = "Claude Usage Tracker";
 "app.window.main" = "Mức sử dụng Claude";
 "app.window.settings" = "Cài đặt";
-"app.window.github_prompt" = "Ủng hộ Claude Usage Tracker";
 
 /* ==================== */
 /* MARK: - Common Actions */
@@ -48,8 +47,6 @@
 "settings.notifications.description" = "Cảnh báo và thông báo về mức sử dụng";
 "settings.claude_cli" = "Claude CLI";
 "settings.claude_cli.description" = "Tích hợp thanh trạng thái terminal";
-"settings.updates" = "Cập nhật";
-"settings.updates.description" = "Luôn cập nhật phiên bản mới nhất cho ứng dụng";
 "settings.about" = "Giới thiệu";
 "settings.about.description" = "Thông tin ứng dụng và ghi công";
 
@@ -165,30 +162,8 @@
 /* MARK: - About */
 /* ==================== */
 "about.version" = "Phiên bản %@";
-"about.check_updates" = "Kiểm tra cập nhật";
-"about.created_by" = "Người tạo";
-"about.contributors" = "Người đóng góp (%d)";
-"about.contributors_loading" = "Người đóng góp";
-"about.contributors_failed" = "Không thể tải danh sách người đóng góp";
 "about.links" = "Liên kết";
-"about.star_github" = "Gắn sao trên GitHub";
-"about.report_issue" = "Báo cáo sự cố";
-"about.send_feedback" = "Gửi phản hồi";
 "about.mit_license" = "Giấy phép MIT • Mã nguồn mở";
-"about.copyright" = "© 2025 Hamed Elfayome";
-
-/* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"settings.updates.title" = "Cập nhật phần mềm";
-"settings.updates.current_version" = "Phiên bản hiện tại";
-"settings.updates.last_check" = "Lần kiểm tra gần nhất";
-"settings.updates.never_checked" = "Chưa từng";
-"settings.updates.automatic" = "Cập nhật tự động";
-"settings.updates.automatic.description" = "Tự động kiểm tra và tải cập nhật mỗi ngày";
-"settings.updates.check_now" = "Kiểm tra cập nhật";
-"settings.updates.info.title" = "Cập nhật an toàn";
-"settings.updates.info.description" = "Tất cả bản cập nhật đều được ký mã hoá và xác minh trước khi cài đặt";
 
 /* ==================== */
 /* MARK: - Icon Styles */
@@ -283,15 +258,6 @@
 "validation.invalid_characters" = "Ký tự không hợp lệ trong khoá phiên";
 "validation.invalid_format" = "Định dạng khoá phiên không hợp lệ";
 "validation.contains_whitespace" = "Khoá phiên chứa khoảng trắng";
-
-/* ==================== */
-/* MARK: - GitHub Star Prompt */
-/* ==================== */
-"github.enjoy_app" = "Bạn thấy Claude Usage Tracker hữu ích?";
-"github.star_description" = "Nếu ứng dụng này hữu ích với bạn, hãy cân nhắc gắn sao cho nó trên GitHub! Điều này giúp người khác khám phá dự án và khích lệ việc phát triển liên tục.";
-"github.star_button" = "Gắn sao trên GitHub";
-"github.maybe_later" = "Để sau";
-"github.never_show" = "Không hiện lại";
 
 /* ==================== */
 /* MARK: - API Settings */
@@ -561,13 +527,6 @@
 "general.not_connected" = "Chưa kết nối";
 
 /* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"updates.version_info" = "Thông tin phiên bản";
-"updates.update_preferences" = "Tuỳ chọn cập nhật";
-"updates.version_label" = "v%@ (%@)";
-
-/* ==================== */
 /* MARK: - Appearance (Additional) */
 /* ==================== */
 "appearance.global_subtitle" = "Tuỳ chỉnh hành vi biểu tượng thanh menu";
@@ -674,12 +633,6 @@
 "section.manage_profiles_desc" = "Quản lý hồ sơ";
 
 /* ==================== */
-/* MARK: - Creator Info */
-/* ==================== */
-"creator.name" = "Hamed Elfayome";
-"creator.username" = "@hamed-elfayome";
-
-/* ==================== */
 /* MARK: - Wizard Steps & Actions */
 /* ==================== */
 "wizard.enter_key" = "Nhập khoá";
@@ -775,8 +728,6 @@
 /* ==================== */
 "section.history_title" = "Lịch sử";
 "section.history_desc" = "Xem lịch sử mức sử dụng";
-"section.support_title" = "Ủng hộ";
-"section.support_desc" = "Ủng hộ phát triển dự án";
 "section.debug_title" = "Công cụ gỡ lỗi";
 "section.debug_desc" = "Ghi nhật ký mạng và chẩn đoán";
 "history.title" = "Lịch sử mức sử dụng";
@@ -819,23 +770,6 @@
 "history.export.json" = "Xuất dưới dạng JSON";
 "history.export.csv" = "Xuất dưới dạng CSV";
 "history.chart.now" = "Hiện tại";
-
-/* ==================== */
-/* MARK: - Support View */
-/* ==================== */
-"support.title" = "Ủng hộ dự án";
-"support.subtitle" = "Claude Usage Tracker miễn phí và mã nguồn mở";
-"support.all_features_free" = "Mọi tính năng đều miễn phí";
-"support.all_features_desc" = "Mọi tính năng trong ứng dụng này đều hoàn toàn miễn phí. Không có gói cao cấp, không tường phí, không đăng ký trả phí.";
-"support.open_source" = "Mã nguồn mở";
-"support.open_source_desc" = "Mã nguồn được công khai trên GitHub. Bạn có thể kiểm tra, chỉnh sửa và đóng góp cho dự án.";
-"support.no_tracking" = "Không theo dõi";
-"support.no_tracking_desc" = "Quyền riêng tư của bạn rất quan trọng. Không phân tích, không đo từ xa, không thu thập dữ liệu. Mọi thứ đều nằm trên Mac của bạn.";
-"support.message" = "Nếu bạn thấy ứng dụng này hữu ích, hãy cân nhắc ủng hộ việc phát triển nó";
-"support.buy_coffee" = "Mời tôi một ly cà phê";
-"support.footer" = "Sự ủng hộ của bạn giúp dự án này tiếp tục tồn tại và phát triển";
-"support.also_support" = "Bạn cũng có thể ủng hộ bằng cách";
-"support.star_github" = "Gắn sao trên GitHub";
 
 /* ==================== */
 /* MARK: - Debug View */
@@ -897,23 +831,6 @@
 "shortcuts.info_desc" = "Phím tắt hoạt động từ bất kỳ ứng dụng nào. Mỗi phím tắt phải bao gồm ít nhất một phím bổ trợ (Command, Option, Control hoặc Shift). Tránh xung đột với phím tắt hệ thống.";
 
 /* ==================== */
-/* MARK: - Mobile App (Coming Soon) */
-/* ==================== */
-"section.mobile_app_title" = "Ứng dụng di động";
-"section.mobile_app_desc" = "Ứng dụng di động sắp ra mắt";
-"mobile.title" = "Ứng dụng di động";
-"mobile.subtitle" = "Theo dõi mức dùng Claude của bạn khi di chuyển";
-"mobile.coming_soon_badge" = "SẮP RA MẮT";
-"mobile.cta_message" = "Bạn quan tâm? Hãy cho chúng tôi biết và chúng tôi sẽ thông báo khi sẵn sàng.";
-"mobile.notify_me" = "Thông báo cho tôi";
-"mobile.submitting" = "Đang gửi...";
-"mobile.notified" = "Bạn đã có trong danh sách!";
-"mobile.notified_desc" = "Chúng tôi sẽ báo cho bạn khi ứng dụng di động sẵn sàng.";
-"mobile.privacy_note" = "Không có dữ liệu cá nhân nào được thu thập. Điều này chỉ đăng ký sự quan tâm của bạn.";
-"mobile.error_title" = "Yêu cầu thất bại";
-"mobile.error_message" = "Không thể đăng ký sự quan tâm của bạn. Vui lòng kiểm tra kết nối internet và thử lại.";
-
-/* ==================== */
 /* MARK: - Popover Settings */
 /* ==================== */
 "section.popover_title" = "Popover";
@@ -937,25 +854,6 @@
 /* ==================== */
 /* MARK: - Feedback Prompt */
 /* ==================== */
-"feedback.title" = "Giúp chúng tôi cải thiện";
-"feedback.subtitle" = "Phản hồi của bạn định hình tương lai của ứng dụng này";
-"feedback.name_placeholder" = "Tên";
-"feedback.title_label" = "Vai trò";
-"feedback.contact_placeholder" = "Email";
-"feedback.message_placeholder" = "Hãy cho chúng tôi biết bất cứ điều gì — phản hồi, ý tưởng, đề xuất tính năng...";
-"feedback.submit" = "Gửi";
-"feedback.submitting" = "Đang gửi...";
-"feedback.remind_later" = "Nhắc tôi sau";
-"feedback.never_show" = "Không hỏi lại";
-"feedback.thanks" = "Cảm ơn bạn đã phản hồi!";
-"feedback.error_title" = "Gửi thất bại";
-"feedback.error_message" = "Không thể gửi phản hồi của bạn. Vui lòng thử lại sau.";
-"feedback.role_developer" = "Nhà phát triển";
-"feedback.role_designer" = "Nhà thiết kế";
-"feedback.role_manager" = "Quản lý";
-"feedback.role_student" = "Sinh viên";
-"feedback.role_researcher" = "Nhà nghiên cứu";
-"feedback.role_other" = "Khác";
 
 // MARK: - Status Banners
 "popover.banner.credentials_expired" = "Thông tin đăng nhập đã hết hạn. Cập nhật trong Cài đặt.";
@@ -1018,8 +916,6 @@
 "notch.server.retry" = "Thử lại";
 
 /* Sponsor slot */
-"sponsor.slot_title" = "Vị trí này dành cho nhà tài trợ";
-"sponsor.slot_cta" = "Liên hệ ngay";
 
 // MARK: - Providers & Codex (v3.3.0)
 "codex.cli_detected" = "Đã phát hiện Codex CLI";
@@ -1086,8 +982,3 @@
 "launcher.install_failed" = "Không thể cài trình khởi chạy: %@";
 
 // MARK: - Terminal Launcher / Support
-"support.popup_title" = "Chào, mình là Hamed 👋";
-"support.popup_signature" = "đội một người đứng sau Claude Usage";
-"support.popup_body" = "Miễn phí, mã nguồn mở, do một người xây dựng — không quảng cáo, không theo dõi. Nếu nó từng giúp bạn khỏi lãng phí giới hạn phiên, một ly cà phê sẽ giúp nó tiếp tục.";
-"support.popup_days" = "Đồng hành cùng giới hạn của bạn %d ngày — luôn miễn phí";
-"support.popup_later" = "Để sau";

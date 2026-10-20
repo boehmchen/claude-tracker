@@ -12,7 +12,6 @@
 "app.name" = "Claude Usage Tracker";
 "app.window.main" = "Claude Usage";
 "app.window.settings" = "設定";
-"app.window.github_prompt" = "支援 Claude Usage Tracker";
 
 /* ==================== */
 /* MARK: - Common Actions */
@@ -49,8 +48,6 @@
 "settings.notifications.description" = "使用警報和通知";
 "settings.claude_cli" = "Claude CLI";
 "settings.claude_cli.description" = "Terminal statusline 整合";
-"settings.updates" = "更新";
-"settings.updates.description" = "保持您的軟體為最新版本";
 "settings.about" = "關於";
 "settings.about.description" = "軟體資訊和致謝";
 
@@ -166,30 +163,8 @@
 /* MARK: - About */
 /* ==================== */
 "about.version" = "版本 %@";
-"about.check_updates" = "檢查更新";
-"about.created_by" = "建立者";
-"about.contributors" = "貢獻者 (%d)";
-"about.contributors_loading" = "貢獻者";
-"about.contributors_failed" = "無法載入貢獻者";
 "about.links" = "連結";
-"about.star_github" = "在 GitHub 上給星";
-"about.report_issue" = "報告問題";
-"about.send_feedback" = "傳送回饋";
 "about.mit_license" = "MIT 許可證 • 開源";
-"about.copyright" = "© 2025 Hamed Elfayome";
-
-/* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"settings.updates.title" = "軟體更新";
-"settings.updates.current_version" = "目前版本";
-"settings.updates.last_check" = "上次檢查";
-"settings.updates.never_checked" = "從未檢查";
-"settings.updates.automatic" = "自動更新";
-"settings.updates.automatic.description" = "每天自動檢查並下載更新";
-"settings.updates.check_now" = "檢查更新";
-"settings.updates.info.title" = "安全更新";
-"settings.updates.info.description" = "所有更新在安裝前都經過加密簽名和驗證";
 
 /* ==================== */
 /* MARK: - Icon Styles */
@@ -284,15 +259,6 @@
 "validation.invalid_characters" = "Session 金鑰包含無效字元";
 "validation.invalid_format" = "無效的 Session 金鑰格式";
 "validation.contains_whitespace" = "Session 金鑰包含空白字元";
-
-/* ==================== */
-/* MARK: - GitHub Star Prompt */
-/* ==================== */
-"github.enjoy_app" = "喜歡 Claude Usage Tracker 嗎？";
-"github.star_description" = "如果這個軟體對您有幫助，請在 GitHub 上給它一顆星！這有助於其他人發現專案並激勵持續開發。";
-"github.star_button" = "在 GitHub 上給星";
-"github.maybe_later" = "稍後再說";
-"github.never_show" = "不再顯示";
 
 /* ==================== */
 /* MARK: - API Settings */
@@ -562,13 +528,6 @@
 "general.not_connected" = "未連線";
 
 /* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"updates.version_info" = "版本資訊";
-"updates.update_preferences" = "更新偏好設定";
-"updates.version_label" = "v%@ (%@)";
-
-/* ==================== */
 /* MARK: - Appearance (Additional) */
 /* ==================== */
 "appearance.global_subtitle" = "自訂選單列圖示行為";
@@ -674,16 +633,8 @@
 "section.manage_profiles_desc" = "管理設定檔";
 "section.history_title" = "歷史記錄";
 "section.history_desc" = "檢視使用歷史";
-"section.support_title" = "支援";
-"section.support_desc" = "支援專案開發";
 "section.debug_title" = "除錯工具";
 "section.debug_desc" = "網路日誌和診斷";
-
-/* ==================== */
-/* MARK: - Creator Info */
-/* ==================== */
-"creator.name" = "Hamed Elfayome";
-"creator.username" = "@hamed-elfayome";
 
 /* ==================== */
 /* MARK: - Wizard Steps & Actions */
@@ -817,19 +768,6 @@
 "history.export.json" = "匯出為 JSON";
 "history.export.csv" = "匯出為 CSV";
 "history.chart.now" = "現在";
-"support.title" = "支援專案";
-"support.subtitle" = "Claude 使用量追蹤器是免費和開源的";
-"support.all_features_free" = "所有功能都是免費的";
-"support.all_features_desc" = "此軟體中的每個功能都是完全免費的。沒有付費方案、沒有付費牆、沒有訂閱。";
-"support.open_source" = "開源";
-"support.open_source_desc" = "原始碼在 GitHub 上公開可用。您可以檢查、修改並為專案做出貢獻。";
-"support.no_tracking" = "無追蹤";
-"support.no_tracking_desc" = "您的隱私很重要。沒有分析、沒有遙測、沒有資料收集。一切都保留在您的 Mac 上。";
-"support.message" = "如果您覺得這個軟體有用，請考慮支援其開發";
-"support.buy_coffee" = "請我喝咖啡";
-"support.footer" = "您的支援有助於保持這個專案的活力和增長";
-"support.also_support" = "您還可以透過以下方式支援";
-"support.star_github" = "在 GitHub 上加星";
 "debug.title" = "除錯工具";
 "debug.subtitle" = "記錄網路請求以進行故障排除和診斷";
 "debug.network_logger" = "網路請求記錄器";
@@ -887,23 +825,6 @@
 "shortcuts.info_desc" = "快捷鍵可在任何軟體中使用。每個快捷鍵必須包含至少一個修飾鍵（Command、Option、Control 或 Shift）。請避免與系統快捷鍵衝突。";
 
 /* ==================== */
-/* MARK: - Mobile App (Coming Soon) */
-/* ==================== */
-"section.mobile_app_title" = "行動 App";
-"section.mobile_app_desc" = "行動 App 即將推出";
-"mobile.title" = "行動 App";
-"mobile.subtitle" = "隨時隨地追蹤您的 Claude 使用情況";
-"mobile.coming_soon_badge" = "即將推出";
-"mobile.cta_message" = "感興趣嗎？告訴我們，準備好後我們會通知您。";
-"mobile.notify_me" = "通知我";
-"mobile.submitting" = "提交中...";
-"mobile.notified" = "您已在列表中！";
-"mobile.notified_desc" = "行動 App 可用時我們會通知您。";
-"mobile.privacy_note" = "不收集任何個人資料。這僅記錄您的興趣。";
-"mobile.error_title" = "請求失敗";
-"mobile.error_message" = "無法註冊您的興趣。請檢查您的網路連線並重試。";
-
-/* ==================== */
 /* MARK: - Popover Settings */
 /* ==================== */
 "section.popover_title" = "彈出視窗";
@@ -927,25 +848,6 @@
 /* ==================== */
 /* MARK: - Feedback Prompt */
 /* ==================== */
-"feedback.title" = "幫助我們改進";
-"feedback.subtitle" = "您的回饋塑造了這款軟體的未來";
-"feedback.name_placeholder" = "姓名";
-"feedback.title_label" = "角色";
-"feedback.contact_placeholder" = "電子郵件";
-"feedback.message_placeholder" = "告訴我們任何事情 — 回饋、想法、功能建議...";
-"feedback.submit" = "提交";
-"feedback.submitting" = "提交中...";
-"feedback.remind_later" = "稍後提醒";
-"feedback.never_show" = "不再詢問";
-"feedback.thanks" = "感謝您的回饋！";
-"feedback.error_title" = "提交失敗";
-"feedback.error_message" = "無法傳送您的回饋。請稍後重試。";
-"feedback.role_developer" = "開發者";
-"feedback.role_designer" = "設計師";
-"feedback.role_manager" = "經理";
-"feedback.role_student" = "學生";
-"feedback.role_researcher" = "研究員";
-"feedback.role_other" = "其他";
 
 // MARK: - Status Banners
 "popover.banner.credentials_expired" = "憑證已過期。請在設定中更新。";
@@ -1006,10 +908,6 @@
 "notch.server.listening" = "正在監聽 %@";
 "notch.server.port_busy" = "連接埠 %@ 已被占用 — 是否有另一個 App 正在執行？";
 "notch.server.retry" = "重試";
-
-/* Sponsor slot */
-"sponsor.slot_title" = "此位置開放贊助";
-"sponsor.slot_cta" = "與我聯繫";
 
 /* Multi-Provider / OpenAI Codex */
 "section.codex_account_title" = "Codex 帳戶";
@@ -1074,8 +972,3 @@
 "launcher.verify" = "檢查登入";
 "launcher.path_warning" = "~/.local/bin 不在你的 PATH 中。請將此行加入你的 shell 設定檔：";
 "launcher.install_failed" = "無法安裝啟動器：%@";
-"support.popup_title" = "你好，我是 Hamed 👋";
-"support.popup_later" = "下次再說";
-"support.popup_signature" = "Claude Usage 背後的一人團隊";
-"support.popup_body" = "免費、開源、一人開發——沒有廣告，沒有追蹤。如果它曾幫你避免燒掉工作階段額度，一杯咖啡就能讓它繼續前進。";
-"support.popup_days" = "已守護你的額度 %d 天 — 永遠免費";

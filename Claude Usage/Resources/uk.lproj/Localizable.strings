@@ -12,7 +12,6 @@
 "app.name" = "Claude Usage Tracker";
 "app.window.main" = "Використання Claude";
 "app.window.settings" = "Налаштування";
-"app.window.github_prompt" = "Підтримати Claude Usage Tracker";
 
 /* ==================== */
 /* MARK: - Common Actions */
@@ -48,8 +47,6 @@
 "settings.notifications.description" = "Попередження про використання ресурсів";
 "settings.claude_cli" = "Claude CLI";
 "settings.claude_cli.description" = "Інтеграція зі рядком статусу терміналу";
-"settings.updates" = "Оновлення";
-"settings.updates.description" = "Тримайте програму актуальною";
 "settings.about" = "Про програму";
 "settings.about.description" = "Інформація про програму та авторів";
 
@@ -165,30 +162,8 @@
 /* MARK: - About */
 /* ==================== */
 "about.version" = "Версія %@";
-"about.check_updates" = "Перевірити оновлення";
-"about.created_by" = "Створено";
-"about.contributors" = "Учасники (%d)";
-"about.contributors_loading" = "Учасники";
-"about.contributors_failed" = "Не вдалося завантажити учасників";
 "about.links" = "Посилання";
-"about.star_github" = "Додати зірку на GitHub";
-"about.report_issue" = "Повідомити про проблему";
-"about.send_feedback" = "Надіслати відгук";
 "about.mit_license" = "Ліцензія MIT • Відкритий код";
-"about.copyright" = "© 2025 Hamed Elfayome";
-
-/* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"settings.updates.title" = "Оновлення програмного забезпечення";
-"settings.updates.current_version" = "Поточна версія";
-"settings.updates.last_check" = "Остання перевірка";
-"settings.updates.never_checked" = "Ніколи";
-"settings.updates.automatic" = "Автоматичні оновлення";
-"settings.updates.automatic.description" = "Автоматично перевіряти та завантажувати оновлення щодня";
-"settings.updates.check_now" = "Перевірити оновлення";
-"settings.updates.info.title" = "Безпечні оновлення";
-"settings.updates.info.description" = "Всі оновлення криптографічно підписані та перевірені перед встановленням";
 
 /* ==================== */
 /* MARK: - Icon Styles */
@@ -283,15 +258,6 @@
 "validation.invalid_characters" = "Недопустимі символи в ключі сесії";
 "validation.invalid_format" = "Невірний формат ключа сесії";
 "validation.contains_whitespace" = "Ключ сесії містить пробіли";
-
-/* ==================== */
-/* MARK: - GitHub Star Prompt */
-/* ==================== */
-"github.enjoy_app" = "Подобається Claude Usage Tracker?";
-"github.star_description" = "Якщо ця програма вам допомогла, будь ласка, додайте зірку на GitHub! Це допомагає іншим знайти проект та мотивує продовжувати розробку.";
-"github.star_button" = "Додати зірку на GitHub";
-"github.maybe_later" = "Можливо пізніше";
-"github.never_show" = "Більше не показувати";
 
 /* ==================== */
 /* MARK: - API Settings */
@@ -561,13 +527,6 @@
 "general.not_connected" = "Не підключено";
 
 /* ==================== */
-/* MARK: - Updates Settings */
-/* ==================== */
-"updates.version_info" = "Інформація про версію";
-"updates.update_preferences" = "Налаштування оновлень";
-"updates.version_label" = "v%@ (%@)";
-
-/* ==================== */
 /* MARK: - Appearance (Additional) */
 /* ==================== */
 "appearance.global_subtitle" = "Налаштуйте поведінку іконки рядка меню";
@@ -672,12 +631,6 @@
 "section.general_desc" = "Загальні налаштування";
 "section.manage_profiles_title" = "Керування профілями";
 "section.manage_profiles_desc" = "Керування профілями";
-
-/* ==================== */
-/* MARK: - Creator Info */
-/* ==================== */
-"creator.name" = "Hamed Elfayome";
-"creator.username" = "@hamed-elfayome";
 
 /* ==================== */
 /* MARK: - Wizard Steps & Actions */
@@ -803,29 +756,6 @@
 "debug.url" = "URL";
 
 /* ==================== */
-/* MARK: - Feedback Form */
-/* ==================== */
-"feedback.title" = "Допоможіть нам покращитися";
-"feedback.subtitle" = "Ваш відгук формує майбутнє цієї програми";
-"feedback.title_label" = "Роль";
-"feedback.name_placeholder" = "Ім'я";
-"feedback.contact_placeholder" = "Email";
-"feedback.message_placeholder" = "Розкажіть нам будь-що — відгуки, ідеї, побажання...";
-"feedback.role_developer" = "Розробник";
-"feedback.role_designer" = "Дизайнер";
-"feedback.role_manager" = "Менеджер";
-"feedback.role_researcher" = "Дослідник";
-"feedback.role_student" = "Студент";
-"feedback.role_other" = "Інше";
-"feedback.submit" = "Надіслати";
-"feedback.submitting" = "Надсилання...";
-"feedback.thanks" = "Дякуємо за відгук!";
-"feedback.never_show" = "Більше не питати";
-"feedback.remind_later" = "Нагадати пізніше";
-"feedback.error_title" = "Помилка відправлення";
-"feedback.error_message" = "Не вдалося надіслати ваш відгук. Будь ласка, спробуйте пізніше.";
-
-/* ==================== */
 /* MARK: - Usage History */
 /* ==================== */
 "history.title" = "Історія використання";
@@ -868,21 +798,6 @@
 "history.export.json" = "Експортувати як JSON";
 "history.clear_button" = "Очистити";
 "history.no_profile" = "Немає активного профілю";
-
-/* ==================== */
-/* MARK: - Mobile App */
-/* ==================== */
-"mobile.title" = "Мобільний додаток";
-"mobile.subtitle" = "Відстежуйте використання Claude де завгодно";
-"mobile.coming_soon_badge" = "НЕЗАБАРОМ";
-"mobile.cta_message" = "Зацікавлені? Повідомте нас, і ми сповістимо вас, коли буде готово.";
-"mobile.notify_me" = "Сповістити мене";
-"mobile.notified" = "Ви в списку!";
-"mobile.notified_desc" = "Ми повідомимо вас, коли мобільний додаток буде доступний.";
-"mobile.submitting" = "Надсилання...";
-"mobile.privacy_note" = "Особисті дані не збираються. Це лише реєструє вашу зацікавленість.";
-"mobile.error_title" = "Запит не вдався";
-"mobile.error_message" = "Не вдалося зареєструвати вашу зацікавленість. Будь ласка, перевірте підключення до інтернету та спробуйте ще раз.";
 
 /* ==================== */
 /* MARK: - Notifications (Additional) */
@@ -928,10 +843,6 @@
 "section.shortcuts_desc" = "Налаштування клавіатурних скорочень";
 "section.debug_title" = "Інструменти розробника";
 "section.debug_desc" = "Журналювання мережі та діагностика";
-"section.mobile_app_title" = "Мобільний додаток";
-"section.mobile_app_desc" = "Мобільний додаток незабаром";
-"section.support_title" = "Підтримка";
-"section.support_desc" = "Підтримайте розробку проекту";
 "section.app_settings_title" = "Налаштування";
 "section.app_settings_desc" = "Налаштування програми та запуск";
 
@@ -963,23 +874,6 @@
 "shortcuts.recording" = "Натисніть скорочення...";
 "shortcuts.clear" = "Очистити";
 "shortcuts.none" = "Немає";
-
-/* ==================== */
-/* MARK: - Project Support */
-/* ==================== */
-"support.title" = "Підтримати проект";
-"support.subtitle" = "Claude Usage Tracker — безкоштовний та відкритий код";
-"support.message" = "Якщо ця програма вам корисна, розгляньте можливість підтримати її розробку";
-"support.buy_coffee" = "Пригостити кавою";
-"support.star_github" = "Додати зірку на GitHub";
-"support.also_support" = "Ви також можете підтримати, зробивши";
-"support.footer" = "Ваша підтримка допомагає зберегти та розвивати цей проект";
-"support.all_features_free" = "Всі функції безкоштовні";
-"support.all_features_desc" = "Кожна функція цієї програми абсолютно безкоштовна. Жодних преміум-рівнів, жодних платних функцій, жодних підписок.";
-"support.open_source" = "Відкритий код";
-"support.open_source_desc" = "Вихідний код публічно доступний на GitHub. Ви можете переглядати, змінювати та робити внески до проекту.";
-"support.no_tracking" = "Без відстеження";
-"support.no_tracking_desc" = "Ваша конфіденційність важлива. Жодної аналітики, телеметрії, збору даних. Все залишається на вашому Mac.";
 
 /* Claude Code Notch HUD */
 "notch.hud.section_title" = "Dynamic Island";
@@ -1015,10 +909,6 @@
 "notch.server.listening" = "Прослуховування %@";
 "notch.server.port_busy" = "Порт %@ зайнятий — можливо, запущено іншу копію застосунку?";
 "notch.server.retry" = "Повторити";
-
-/* Sponsor slot */
-"sponsor.slot_title" = "Це місце доступне для спонсорів";
-"sponsor.slot_cta" = "Звʼязатися";
 
 /* Multi-Provider / OpenAI Codex */
 "section.codex_account_title" = "Обліковий запис Codex";
@@ -1083,8 +973,3 @@
 "launcher.verify" = "Перевірити вхід";
 "launcher.path_warning" = "~/.local/bin відсутній у вашому PATH. Додайте цей рядок до профілю оболонки:";
 "launcher.install_failed" = "Не вдалося встановити запускач: %@";
-"support.popup_title" = "Привіт, я Hamed 👋";
-"support.popup_later" = "Можливо, пізніше";
-"support.popup_signature" = "команда з однієї людини за Claude Usage";
-"support.popup_body" = "Безплатний, з відкритим кодом, зроблений однією людиною — без реклами й стеження. Якщо він урятував вас від спаленого ліміту сесії, кава тримає його живим.";
-"support.popup_days" = "Пильнує ваші ліміти вже %d днів — завжди безплатно";

@@ -21,7 +21,7 @@ Edit `Claude Usage.xcodeproj/project.pbxproj`:
 
 **Important:**
 - `MARKETING_VERSION` is the user-facing version (e.g., 2.2.0)
-- `CURRENT_PROJECT_VERSION` is the build number used by Sparkle for update detection
+- `CURRENT_PROJECT_VERSION` is the build number
 - **ALWAYS increment CURRENT_PROJECT_VERSION** for each release, even for patches!
 
 ### 2. Update CHANGELOG.md
@@ -62,52 +62,25 @@ git push origin vX.Y.Z
 
 ### 5. Wait for Workflows
 
-The tag push triggers three automated workflows:
+The tag push triggers the release workflow (~5-10 minutes):
 
-1. **Release workflow** (~5-10 minutes)
-   - Builds the app
-   - Signs with Apple Developer certificate
-   - Notarizes with Apple
-   - Creates GitHub release with ZIP file
+- Builds the app
+- Signs with Apple Developer certificate
+- Notarizes with Apple
+- Creates GitHub release with ZIP file
 
-2. **Generate Appcast workflow** (triggers after release)
-   - Downloads the release
-   - Generates appcast.xml with EdDSA signature
-   - Updates gh-pages with new version
-
-3. **Update Homebrew Cask workflow** (triggers after release)
-   - Automatically updates Homebrew formula
-
-Monitor at: `https://github.com/hamed-elfayome/Claude-Usage-Tracker/actions`
+Monitor progress in the repository's Actions tab.
 
 ### 6. Verify Release
 
 1. Check GitHub releases page for the new release
-2. Verify appcast: `https://hamed-elfayome.github.io/Claude-Usage-Tracker/appcast.xml`
-3. Test in-app update:
-   - Run an older version of the app
-   - Check for updates
-   - Verify new version appears and installs correctly
+2. Download the ZIP and verify the app launches
 
 ## Troubleshooting
-
-### Update not showing in app
-
-- Check `CURRENT_PROJECT_VERSION` was incremented (not just `MARKETING_VERSION`)
-- Verify appcast.xml has higher `<sparkle:version>` number
-- Clear app caches: `~/Library/Caches/HamedElfayome.Claude-Usage/`
-
-### Signature validation error
-
-- Workflow regenerates signatures automatically
-- If you manually edited appcast.xml, it will fail
-- Re-run "Generate Appcast" workflow to regenerate with correct signatures
 
 ### Workflow failures
 
 - **Release workflow**: Check code signing certificates and notarization credentials
-- **Appcast workflow**: Verify release ZIP was created and SPARKLE_PRIVATE_KEY secret exists
-- **Homebrew workflow**: Check RELEASE_TOKEN has proper permissions
 
 ## Quick Reference
 

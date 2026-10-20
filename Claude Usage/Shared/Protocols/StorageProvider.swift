@@ -49,18 +49,7 @@ protocol StorageProvider {
     func saveHasCompletedSetup(_ completed: Bool)
     func hasCompletedSetup() -> Bool
 
-    // MARK: - GitHub Star Prompt
+    // MARK: - First Launch
     func saveFirstLaunchDate(_ date: Date)
     func loadFirstLaunchDate() -> Date?
-
-    func saveLastGitHubStarPromptDate(_ date: Date)
-    func loadLastGitHubStarPromptDate() -> Date?
-
-    func saveHasStarredGitHub(_ starred: Bool)
-    func loadHasStarredGitHub() -> Bool
-
-    func saveNeverShowGitHubPrompt(_ neverShow: Bool)
-    func loadNeverShowGitHubPrompt() -> Bool
-
-    func shouldShowGitHubStarPrompt() -> Bool
 }

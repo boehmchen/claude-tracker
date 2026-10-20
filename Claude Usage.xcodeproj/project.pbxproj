@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		056C52802F017E50007E2A48 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = SPARKLE_PRODUCT_DEP /* Sparkle */; };
 		DYNAMICNOTCH_BUILD_FILE /* DynamicNotchKit in Frameworks */ = {isa = PBXBuildFile; productRef = DYNAMICNOTCH_PRODUCT_DEP /* DynamicNotchKit */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056C52802F017E50007E2A48 /* Sparkle in Frameworks */,
 				DYNAMICNOTCH_BUILD_FILE /* DynamicNotchKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,7 +95,6 @@
 			);
 			name = "Claude Usage";
 			packageProductDependencies = (
-				SPARKLE_PRODUCT_DEP /* Sparkle */,
 				DYNAMICNOTCH_PRODUCT_DEP /* DynamicNotchKit */,
 			);
 			productName = "Claude Usage";
@@ -170,7 +167,6 @@
 			mainGroup = 05CD2CA92EA985A100004C83;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				SPARKLE_PACKAGE_REF /* XCRemoteSwiftPackageReference "Sparkle" */,
 				DYNAMICNOTCH_PACKAGE_REF /* XCRemoteSwiftPackageReference "DynamicNotchKit" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -536,14 +532,6 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		SPARKLE_PACKAGE_REF /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.8.1;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -551,11 +539,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DYNAMICNOTCH_PACKAGE_REF /* XCRemoteSwiftPackageReference "DynamicNotchKit" */;
 			productName = DynamicNotchKit;
-		};
-		SPARKLE_PRODUCT_DEP /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = SPARKLE_PACKAGE_REF /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
